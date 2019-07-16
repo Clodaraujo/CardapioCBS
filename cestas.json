@@ -1,0 +1,17 @@
+{
+    "cestas":[{
+        "id": 1,
+        "nome_cesta": "Kit Limpeza 1 ",
+        "preco": "44,90",
+        "produtos": "Hello",
+        "imagem": "lll",
+    },
+    {
+        "id": 2,
+        "nome_cesta": "Cesta doacao",
+        "preco": "53,00",
+        "produtos": "Hello",
+        "imagem": "./assets/caixa-1-1.jpg"
+        
+    }]
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
