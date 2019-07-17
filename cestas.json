@@ -4,14 +4,24 @@
         "nome_cesta": "Kit Limpeza 1 ",
         "preco": "44,90",
         "produtos": "Hello",
-        "imagem": "lll",
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2017/10/caixa-1-1.jpg"
     },
     {
         "id": 2,
         "nome_cesta": "Cesta doacao",
         "preco": "53,00",
         "produtos": "Hello",
-        "imagem": "./assets/caixa-1-1.jpg"
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2017/10/caixa-1-1.jpg"
         
-    }]
+    },
+
+    {
+        "id": 3,
+        "nome_cesta": "Cesta Familia 1",
+        "preco": "123,00",
+        "produtos": "Hello",
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2017/10/caixa-1-1.jpg"
+        
+    }
+  ]
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

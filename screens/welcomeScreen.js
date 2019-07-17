@@ -42,7 +42,7 @@ class Welcome extends Component{
                         <TouchableOpacity style = {style.montarcesta} onPress ={() => this.props.navigation.navigate('montarCesta')}>
 
                             <Image style = {style.icons} source = {require('../assets/heart-box.png')} />
-                            <Text style = {style.textobtt}>MONTAR SUA CESTA </Text>
+                            <Text style = {style.textobtt}>CESTAS {'\n'}NATAL </Text>
 
                         </TouchableOpacity>
                   

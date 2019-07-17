@@ -39,7 +39,7 @@
                       <Image style = {{width: 210, height: 210}} source = {require('../assets/CBSLogo.png')} resizeMode = 'contain'/>
                   </View>
               </View> */}
-              <ScrollView >
+              <ScrollView horizontal={true} style={{flex: 1}}>
                 <CestasCardsScreen todasCestas={this.state.cestas}/>
               </ScrollView>
           </View>
@@ -56,6 +56,8 @@
 const style = StyleSheet.create({
     container: {
         flex: 1,
+        
+        
         // alignItems: 'center',
         // justifyContent: 'space-between',
         // backgroundColor:'#fff',

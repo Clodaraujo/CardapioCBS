@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Image } from 'react-native';
-import{ Container, Header, Content, List, ListItem, Left, Body, Right, Thumbnail, Text, Icon, Card, CardItem } from 'native-base';
+import{ Container, Header, Content, List, ListItem, Left, Body, Right, Thumbnail, Text, Icon, Card, CardItem, Footer } from 'native-base';
 
 const listaCestas = (props) => {
 
@@ -8,32 +8,33 @@ const listaCestas = (props) => {
       if(todasCestas) {
         return todasCestas.map((item) => {
           return (
-            <CardItem key={item.id} avatar >
-              <Left>
-                <Thumbnail source={{ uri: `${item.imagem}`}}/>
-              </Left>
-              <Body>
-                <Text>{`${item.nome_cesta}`}</Text>
-                <Text note>{`${item.preco}`}</Text>
-              </Body>
-              <Right style={{justifyContent:'center'}}>
-                <Icon name='heart' style={{paddingRight: 5 ,fontSize: 30}}/> 
+            <ListItem key={item.id}>
+              <Card style={{alignItems: 'center',width: 250 ,flex: 0}}>
+                <CardItem cardBody>                
+                  
+                    <Thumbnail square source={{ uri: `${item.imagem}`}} style={{ height: 200, width: 100 , flex: 1}}/>
+                  
+                  </CardItem>
 
-              </Right>
-
-
-            </CardItem>
+                  <CardItem >
+                    <Body>
+                      <Text>{`${item.nome_cesta}`}</Text>
+                      <Text note>{`${item.preco}`}</Text>
+                    </Body> 
+                  </CardItem>
+                </Card>
+            </ListItem>
           )
         })
       }
   }
   return(
       <Container>
-        <Header/>
-        <Content>
-          <Card  style={{flex: 0}} horizontal={true}>
-            {lista(props)}
-          </Card>
+        <Header transparent />
+        <Content padder>
+          <List horizontal={true} style={{flex: 1}}>  
+              {lista(props)}
+          </List>
         </Content>
       </Container>
   )     
