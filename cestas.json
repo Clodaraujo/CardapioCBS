@@ -2,25 +2,73 @@
     "cestas":[{
         "id": 1,
         "nome_cesta": "Kit Limpeza 1 ",
-        "preco": "44,90",
+        "preco": "R$44,90",
         "produtos": "Hello",
-        "imagem": "https://cbscestas.com.br/wp-content/uploads/2017/10/caixa-1-1.jpg"
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
     },
     {
         "id": 2,
-        "nome_cesta": "Cesta doacao",
-        "preco": "53,00",
+        "nome_cesta": "Cesta Doacao",
+        "preco": "R$53,00",
         "produtos": "Hello",
-        "imagem": "https://cbscestas.com.br/wp-content/uploads/2017/10/caixa-1-1.jpg"
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
         
     },
 
     {
         "id": 3,
-        "nome_cesta": "Cesta Familia 1",
-        "preco": "123,00",
+        "nome_cesta": "Cesta EconoMais",
+        "preco": "R$75,00",
         "produtos": "Hello",
-        "imagem": "https://cbscestas.com.br/wp-content/uploads/2017/10/caixa-1-1.jpg"
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
+        
+    },
+    {
+        "id": 4,
+        "nome_cesta": "Confeccao Sindicato",
+        "preco": "R$101,00",
+        "produtos": "Hello",
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
+        
+    },
+    {
+        "id": 5,
+        "nome_cesta": "Cesta QualiMais",
+        "preco": "R$102,50",
+        "produtos": "Hello",
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
+        
+    },
+    {
+        "id": 6,
+        "nome_cesta": "Cesta SempreMais",
+        "preco": "R$116,50",
+        "produtos": "Hello",
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
+        
+    },
+    {
+        "id": 7,
+        "nome_cesta": "Cesta CCS",
+        "preco": "R$117,00",
+        "produtos": "Hello",
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
+        
+    },
+    {
+        "id": 8,
+        "nome_cesta": "Cesta Familia 2",
+        "preco": "R$135,00",
+        "produtos": "Hello",
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
+        
+    },
+    {
+        "id": 9,
+        "nome_cesta": "Cesta Transporte",
+        "preco": "R$137,00",
+        "produtos": "Hello",
+        "imagem": "https://cbscestas.com.br/wp-content/uploads/2018/01/Untitled.png"
         
     }
   ]
