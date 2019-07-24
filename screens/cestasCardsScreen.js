@@ -39,7 +39,7 @@ const listaCestas = (props) => {
   return(
       <Container>
         <Content padder>
-          <List style={{ flex: 1,flexDirection: 'row', flexWrap: 'wrap'}}>  
+          <List style={{ flexDirection: 'row', flexWrap: 'wrap'}}>  
               {lista(props)}
           </List>
         </Content>

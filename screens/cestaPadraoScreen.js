@@ -53,7 +53,7 @@
                   </View>
               </View>
 
-              <ScrollView style={{flex: 1}} onContentSizeChange ={this.onContentSizeChange} scrollEnabled={scrollEnabled}>
+              <ScrollView style={{flex: 1, paddingTop:105}} onContentSizeChange ={this.onContentSizeChange} scrollEnabled={scrollEnabled}>
                 <CestasCardsScreen todasCestas={this.state.cestas}/>
             </ScrollView>
             
@@ -62,10 +62,6 @@
          )
      }
   }
- 
- 
- 
- 
  
 
 const style = StyleSheet.create({
